@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>آوین فارما | فروشگاه سلامت و زیبایی</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#">آوین فارما</a>
+<nav><a href="#home">خانه</a><a href="#categories">دسته‌بندی</a><a href="#products">محصولات</a><a href="#about">درباره ما</a></nav>
+<button id="cartBtn">🛒 سبد <b id="count">۰</b></button></div></header>
+<main id="home">
+<section class="hero wrap"><div><span class="tag">نسخه آزمایشی</span><h1>خرید ساده و مطمئن از آوین فارما</h1>
+<p>محصولات منتخب آرایشی، بهداشتی و تجهیزات پزشکی مجاز، با تجربه‌ای سریع و شفاف.</p><a class="btn" href="#products">شروع خرید</a></div>
+<div class="heroCard"><span>AVIN</span><strong>سلامت، زیبایی، اطمینان</strong><small>اول بازار را می‌سنجیم؛ بعد توسعه می‌دهیم.</small></div></section>
+<section id="categories" class="wrap section"><h2>دسته‌بندی‌ها</h2><div class="cats">
+<button data-cat="all">همه</button><button data-cat="beauty">آرایشی</button><button data-cat="hygiene">بهداشتی</button><button data-cat="medical">تجهیزات پزشکی</button></div></section>
+<section id="products" class="wrap section"><div class="toolbar"><div><span class="tag">منتخب</span><h2>محصولات</h2></div><input id="search" placeholder="جستجوی محصول..."></div><div id="grid" class="grid"></div></section>
+<section id="about" class="wrap info"><h2>چرا آوین فارما؟</h2><div class="features"><div><b>اصالت</b><span>اطلاعات شفاف محصول</span></div><div><b>پشتیبانی</b><span>پاسخ‌گویی قبل و بعد از خرید</span></div><div><b>ارسال</b><span>پیگیری مرحله‌به‌مرحله سفارش</span></div></div><p>فروش آنلاین دارو در این نسخه فعال نیست.</p></section>
+</main>
+<aside id="cart" class="cart"><div class="cartHead"><h2>سبد خرید</h2><button id="close">×</button></div><div id="items"></div><div class="total"><span>جمع</span><b id="total">۰ تومان</b></div><button class="btn full" id="checkout">ادامه ثبت سفارش</button><p class="muted">درگاه واقعی در نسخه آزمایشی فعال نیست.</p></aside><div id="shade"></div>
+<div id="modal" class="modal"><div class="modalBox"><button id="modalClose">×</button><h2>ثبت سفارش آزمایشی</h2><form id="form"><input required name="name" placeholder="نام و نام خانوادگی"><input required name="phone" placeholder="شماره موبایل" inputmode="tel"><textarea name="address" placeholder="آدرس"></textarea><button class="btn full">ثبت درخواست</button></form><div id="done" hidden></div></div></div>
+<footer><div class="wrap">© آوین فارما — نسخه آزمایشی بازار</div></footer><script src="app.js"></script>
+</body></html>
